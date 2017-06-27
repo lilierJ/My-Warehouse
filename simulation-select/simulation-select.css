@@ -1,0 +1,32 @@
+.city-choose-wrap,.area-choose-wrap {
+  display: none;
+}
+.city-btn,.area-btn {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  border: #333 solid 1px;
+  border-radius: 5px;
+  float: left;
+  cursor: pointer;
+  background: #eee;
+}
+.city-btn {
+  margin-right: 15px;
+}
+.city-btn p,.area-btn p {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.choose-wrap {
+  border-left: #ccc solid 1px;
+  border-right: #ccc solid 1px;
+}
+.choose-wrap p {
+  border-bottom: #ccc solid 1px;
+}
+.choose-wrap p:hover {
+  background: #aaa;
+}
